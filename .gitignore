@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Local databases
+*.duckdb
+*.duckdb.wal
+
+# Local or reproducible data
+data/raw/
+data/cache/
+data/processed/
+
+# Temporary results
+results/temp/
