@@ -1,0 +1,48 @@
+models:
+  - id: full_three_factor_score
+    label: Full score, at least 2 of 3 flags
+    type: score_at_least
+    factor_ids:
+      - rolling_four_week_expansion
+      - below_40_week_sma
+      - weekly_expansion
+    minimum_score: 2
+
+  - id: both_atr_expansions
+    label: Both ATR expansion flags
+    type: all_factors
+    factor_ids:
+      - rolling_four_week_expansion
+      - weekly_expansion
+
+policies:
+  - id: full_size
+    label: Full size
+    elevated_multiplier: 1.00
+
+  - id: reduce_to_75_percent
+    label: Reduce elevated size to 75%
+    elevated_multiplier: 0.75
+
+  - id: reduce_to_50_percent
+    label: Reduce elevated size to 50%
+    elevated_multiplier: 0.50
+
+  - id: reduce_to_25_percent
+    label: Reduce elevated size to 25%
+    elevated_multiplier: 0.25
+
+  - id: skip_elevated
+    label: Skip elevated entries
+    elevated_multiplier: 0.00
+
+samples:
+  - id: full_history
+    label: Complete feature history
+    start_date: 2005-05-13
+    end_date: 2026-12-31
+
+  - id: forward_test
+    label: Pooled chronological test period
+    start_date: 2011-01-01
+    end_date: 2026-12-31

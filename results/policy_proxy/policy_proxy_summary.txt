@@ -1,0 +1,24 @@
+MNQ PCS REGIME RESEARCH — ECONOMIC POLICY PROXY
+========================================================
+
+Methodological limitation
+--------------------------------------------------------
+This is not an options P&L backtest. It does not model historical credits, strike rounding, transaction costs, or the 150-point spread payoff.
+Exposure retained is only a proxy for retained credit opportunity. Failure, touch, and adverse-move reductions are exposure-weighted risk proxies.
+
+Forward-test results
+--------------------------------------------------------
+Full score, at least 2 of 3 flags:
+  Full size | Exposure retained=100.0% | Failure exposure reduction=0.0% | Touch exposure reduction=0.0% | Adverse exposure reduction=0.0% | Max cluster reduction=0.0%
+  Reduce elevated size to 75% | Exposure retained=95.7% | Failure exposure reduction=10.4% | Touch exposure reduction=8.9% | Adverse exposure reduction=6.4% | Max cluster reduction=0.0%
+  Reduce elevated size to 50% | Exposure retained=91.4% | Failure exposure reduction=20.8% | Touch exposure reduction=17.9% | Adverse exposure reduction=12.8% | Max cluster reduction=0.0%
+  Reduce elevated size to 25% | Exposure retained=87.1% | Failure exposure reduction=31.2% | Touch exposure reduction=26.8% | Adverse exposure reduction=19.1% | Max cluster reduction=0.0%
+  Skip elevated entries | Exposure retained=82.9% | Failure exposure reduction=41.7% | Touch exposure reduction=35.7% | Adverse exposure reduction=25.5% | Max cluster reduction=0.0%
+
+Both ATR expansion flags:
+  Full size | Exposure retained=100.0% | Failure exposure reduction=0.0% | Touch exposure reduction=0.0% | Adverse exposure reduction=0.0% | Max cluster reduction=0.0%
+  Reduce elevated size to 75% | Exposure retained=96.9% | Failure exposure reduction=8.3% | Touch exposure reduction=6.0% | Adverse exposure reduction=4.3% | Max cluster reduction=0.0%
+  Reduce elevated size to 50% | Exposure retained=93.8% | Failure exposure reduction=16.7% | Touch exposure reduction=11.9% | Adverse exposure reduction=8.5% | Max cluster reduction=0.0%
+  Reduce elevated size to 25% | Exposure retained=90.7% | Failure exposure reduction=25.0% | Touch exposure reduction=17.9% | Adverse exposure reduction=12.8% | Max cluster reduction=0.0%
+  Skip elevated entries | Exposure retained=87.6% | Failure exposure reduction=33.3% | Touch exposure reduction=23.8% | Adverse exposure reduction=17.1% | Max cluster reduction=0.0%
+
