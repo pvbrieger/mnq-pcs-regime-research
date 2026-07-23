@@ -1,0 +1,20 @@
+{
+  "dataset": "GLBX.MDP3",
+  "schema": "bbo-1s",
+  "symbols": [
+    "MNQM6",
+    "MQ1M6 P25100",
+    "MQ1M6 P25250",
+    "MQ1M6 P25750",
+    "MQ1M6 P25900"
+  ],
+  "target_entry_timestamp_local": "2026-05-08T15:45:00-04:00",
+  "quote_window_start_utc": "2026-05-08T19:40:00+00:00",
+  "quote_window_end_utc": "2026-05-08T19:50:00+00:00",
+  "estimated_cost_usd": 0.002751946449,
+  "downloaded_during_this_run": true,
+  "raw_dbn_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2026-05-08_bbo-1s.dbn.zst",
+  "raw_records": 815,
+  "symbols_with_valid_quotes": 5,
+  "symbols_without_valid_quotes": []
+}

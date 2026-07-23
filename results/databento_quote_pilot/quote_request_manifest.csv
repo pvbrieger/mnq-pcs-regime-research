@@ -1,0 +1,5 @@
+pilot_entry_date,expiration,dte_calendar,underlying,asset,candidate_type,target_short_strike,nearest_unconstrained_short_strike,selected_short_strike,selected_long_strike,short_distance_below_target_points,spread_width_points,leg_name,side,strike_price,raw_symbol,instrument_id
+2026-05-08,2026-06-05 20:00:00+00:00,28,MNQM6,MQ1,defensive,25288.27,25250.0,25250.0,25100.0,38.27000000000044,150.0,long_put,buy,25100.0,MQ1M6 P25100,42896470
+2026-05-08,2026-06-05 20:00:00+00:00,28,MNQM6,MQ1,defensive,25288.27,25250.0,25250.0,25100.0,38.27000000000044,150.0,short_put,sell,25250.0,MQ1M6 P25250,42877897
+2026-05-08,2026-06-05 20:00:00+00:00,28,MNQM6,MQ1,standard,26165.32,26100.0,25900.0,25750.0,265.3199999999997,150.0,long_put,buy,25750.0,MQ1M6 P25750,42919020
+2026-05-08,2026-06-05 20:00:00+00:00,28,MNQM6,MQ1,standard,26165.32,26100.0,25900.0,25750.0,265.3199999999997,150.0,short_put,sell,25900.0,MQ1M6 P25900,42867184

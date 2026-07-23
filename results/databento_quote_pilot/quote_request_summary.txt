@@ -1,0 +1,17 @@
+MNQ PCS REGIME RESEARCH — DATABENTO QUOTE PILOT
+=========================================================
+
+Entry target: 2026-05-08T15:45:00-04:00
+Quote window: 2026-05-08T19:40:00+00:00 to 2026-05-08T19:50:00+00:00
+
+Feasibility
+---------------------------------------------------------
+2026-06-05 20:00:00+00:00 | defensive | Feasible=True | Included=True | Reason=Executable
+2026-06-05 20:00:00+00:00 | standard | Feasible=True | Included=True | Reason=Executable
+2026-06-12 20:00:00+00:00 | defensive | Feasible=False | Included=False | Reason=No exact 150-point-wide pair at or below target
+2026-06-12 20:00:00+00:00 | standard | Feasible=True | Included=False | Reason=Executable
+
+Cost estimates
+---------------------------------------------------------
+bbo-1s | Cost=0.002751946449 | Records=2052
+mbp-1 | Cost=0.035540476441 | Records=265009

@@ -1,0 +1,18 @@
+dataset: GLBX.MDP3
+pilot_entry_date: 2026-05-08
+entry_timezone: America/New_York
+target_entry_time: '15:45'
+quote_window_minutes: 10
+dte_calendar_min: 26
+dte_calendar_max: 35
+standard_target_short_strike: 26165.32
+defensive_target_short_strike: 25288.27
+spread_width_points: 150.0
+strike_match_tolerance_points: 0.01
+schemas_to_estimate:
+- bbo-1s
+- mbp-1
+download_schema: bbo-1s
+maximum_quote_age_minutes: 5.0
+minimum_credit_points: 8.25
+proxy_tolerable_credit_haircut_points: 2.91

@@ -1,0 +1,59 @@
+{
+  "dataset": "GLBX.MDP3",
+  "pilot_entry_date": "2026-05-08",
+  "target_entry_timestamp_local": "2026-05-08T15:45:00-04:00",
+  "quote_window_start_utc": "2026-05-08T19:40:00+00:00",
+  "quote_window_end_utc": "2026-05-08T19:50:00+00:00",
+  "included_expirations": [
+    "2026-06-05 20:00:00+00:00"
+  ],
+  "option_symbols": [
+    "MQ1M6 P25100",
+    "MQ1M6 P25250",
+    "MQ1M6 P25750",
+    "MQ1M6 P25900"
+  ],
+  "underlying_symbols": [
+    "MNQM6"
+  ],
+  "all_symbols": [
+    "MNQM6",
+    "MQ1M6 P25100",
+    "MQ1M6 P25250",
+    "MQ1M6 P25750",
+    "MQ1M6 P25900"
+  ],
+  "estimates": [
+    {
+      "schema": "bbo-1s",
+      "symbols": [
+        "MNQM6",
+        "MQ1M6 P25100",
+        "MQ1M6 P25250",
+        "MQ1M6 P25750",
+        "MQ1M6 P25900"
+      ],
+      "symbol_count": 5,
+      "estimated_cost_usd": 0.002751946449,
+      "estimated_record_count": 2052,
+      "cost_error": null,
+      "record_count_error": null
+    },
+    {
+      "schema": "mbp-1",
+      "symbols": [
+        "MNQM6",
+        "MQ1M6 P25100",
+        "MQ1M6 P25250",
+        "MQ1M6 P25750",
+        "MQ1M6 P25900"
+      ],
+      "symbol_count": 5,
+      "estimated_cost_usd": 0.035540476441,
+      "estimated_record_count": 265009,
+      "cost_error": null,
+      "record_count_error": null
+    }
+  ],
+  "historical_quote_data_downloaded": false
+}
