@@ -1,0 +1,24 @@
+MNQ PCS REGIME RESEARCH — CANDIDATE OVERLAP ANALYSIS
+===========================================================
+
+Complete observations: 1,100
+Baseline failures: 20 (1.82%)
+Candidate factors tested: 3
+
+Failure rate by number of active candidate flags
+-----------------------------------------------------------
+0 active | N=537 | Failures=6 (1.12%) | Lift=0.61x | Captured=30.0%
+1 active | N=366 | Failures=5 (1.37%) | Lift=0.75x | Captured=25.0%
+2 active | N=150 | Failures=6 (4.00%) | Lift=2.20x | Captured=30.0%
+3 active | N=47 | Failures=3 (6.38%) | Lift=3.51x | Captured=15.0%
+
+Pairwise overlap
+-----------------------------------------------------------
+Rolling four-week range at least 120% of prior ATR + NDX below 40-week SMA | N=80 | Failures=6 | Failure rate=7.50% | Jaccard=0.19 | Phi=0.12
+Rolling four-week range at least 120% of prior ATR + Weekly range at least 120% of prior ATR | N=135 | Failures=6 | Failure rate=4.44% | Jaccard=0.30 | Phi=0.27
+NDX below 40-week SMA + Weekly range at least 120% of prior ATR | N=76 | Failures=3 | Failure rate=3.95% | Jaccard=0.17 | Phi=0.07
+
+Failure clusters
+-----------------------------------------------------------
+Distinct failure clusters: 13
+Clusters containing multiple failures: 5
