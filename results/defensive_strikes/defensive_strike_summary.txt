@@ -1,0 +1,24 @@
+MNQ PCS REGIME RESEARCH — DEFENSIVE STRIKE ANALYSIS
+===========================================================
+
+Methodological status
+-----------------------------------------------------------
+Fixed-credit expiration proxy; not a historical options backtest.
+Defensive strikes are applied only to elevated-regime entries and preserve the 150-point spread width.
+The maximum tolerable credit haircut is the average intrinsic-value reduction per elevated entry.
+Entry spot source: weekly_close
+Short strike source: short_strike_proxy
+Settlement source: expiration_close
+
+Forward-test results at 8.25-point standard credit
+-----------------------------------------------------------
+Both ATR expansion flags | Extra distance=0.5% | Failures=4->3 | Max haircut=0.41 | Match credit=7.84 | Retained credit=95.0% | Match-credit drawdown change=$-4
+Both ATR expansion flags | Extra distance=1.0% | Failures=4->3 | Max haircut=1.27 | Match credit=6.98 | Retained credit=84.6% | Match-credit drawdown change=$-13
+Both ATR expansion flags | Extra distance=1.5% | Failures=4->2 | Max haircut=2.15 | Match credit=6.10 | Retained credit=73.9% | Match-credit drawdown change=$-22
+Both ATR expansion flags | Extra distance=2.0% | Failures=4->2 | Max haircut=2.27 | Match credit=5.98 | Retained credit=72.4% | Match-credit drawdown change=$-23
+Both ATR expansion flags | Extra distance=3.0% | Failures=4->2 | Max haircut=2.52 | Match credit=5.73 | Retained credit=69.5% | Match-credit drawdown change=$-25
+Full score, at least 2 of 3 flags | Extra distance=0.5% | Failures=5->4 | Max haircut=0.30 | Match credit=7.95 | Retained credit=96.4% | Match-credit drawdown change=$-5
+Full score, at least 2 of 3 flags | Extra distance=1.0% | Failures=5->4 | Max haircut=0.92 | Match credit=7.33 | Retained credit=88.9% | Match-credit drawdown change=$-17
+Full score, at least 2 of 3 flags | Extra distance=1.5% | Failures=5->3 | Max haircut=1.56 | Match credit=6.69 | Retained credit=81.1% | Match-credit drawdown change=$-28
+Full score, at least 2 of 3 flags | Extra distance=2.0% | Failures=5->3 | Max haircut=1.66 | Match credit=6.59 | Retained credit=79.9% | Match-credit drawdown change=$-27
+Full score, at least 2 of 3 flags | Extra distance=3.0% | Failures=5->3 | Max haircut=2.91 | Match credit=5.34 | Retained credit=64.7% | Match-credit drawdown change=$80

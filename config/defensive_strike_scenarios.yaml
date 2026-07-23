@@ -1,0 +1,23 @@
+spread_width_points: 150.0
+
+# MNQ options are modeled as $2 per index point.
+contract_multiplier_dollars_per_point: 2.0
+
+# Standard-strike credit assumptions. The first value is the strategy floor.
+standard_credit_scenarios_points:
+  - 8.25
+  - 10.00
+  - 12.00
+  - 14.00
+
+# Additional percentage-point distance below Friday spot, applied only when
+# the selected regime is elevated. Example: 0.010 adds 1.0% below spot.
+additional_distance_fractions:
+  - 0.005
+  - 0.010
+  - 0.015
+  - 0.020
+  - 0.030
+
+# Four consecutive weekly entries approximate the maximum overlapping cohorts.
+consecutive_trade_window: 4
