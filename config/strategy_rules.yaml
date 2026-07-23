@@ -1,0 +1,29 @@
+strategy_name: MNQ Weekly Put Credit Spread
+entry_proxy: Final trading day of each week ending Friday
+holding_period_weeks: 4
+maximum_vix_staleness_days: 4
+
+vix_ladder:
+  - label: VIX below 15
+    minimum_inclusive: null
+    maximum_exclusive: 15
+    short_strike_distance: 0.09
+
+  - label: VIX 15 to 20
+    minimum_inclusive: 15
+    maximum_exclusive: 20
+    short_strike_distance: 0.105
+
+  - label: VIX 20 to 25
+    minimum_inclusive: 20
+    maximum_exclusive: 25
+    short_strike_distance: 0.125
+
+  - label: VIX 25 or higher
+    minimum_inclusive: 25
+    maximum_exclusive: null
+    short_strike_distance: 0.15
+
+outcomes:
+  touch_definition: Holding-period daily low at or below short-strike proxy
+  expiration_failure_definition: Four-week expiration close below short-strike proxy
