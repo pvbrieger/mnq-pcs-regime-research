@@ -1,0 +1,22 @@
+dataset: GLBX.MDP3
+
+# Most recent elevated-regime Friday selected by the prior inspection.
+pilot_entry_date: 2026-05-08
+
+entry_timezone: America/New_York
+
+dte_calendar_min: 26
+dte_calendar_max: 35
+
+# Existing baseline targets for 2026-05-08.
+standard_target_short_strike: 26165.32
+defensive_target_short_strike: 25288.27
+
+# Keep strikes around both targets while allowing discovery of the 150-point
+# long legs and neighboring listed strikes.
+strike_search_band_points: 500.0
+
+# Definition filtering is based primarily on the underlying field. Asset and
+# raw-symbol prefixes are retained as fallbacks for vendor symbology variation.
+underlying_root_candidates:
+  - MNQ

@@ -1,0 +1,97 @@
+{
+  "dataset": "GLBX.MDP3",
+  "pilot_entry_date": "2026-05-08",
+  "request_start_utc": "2026-05-08T00:00:00+00:00",
+  "request_end_utc": "2026-05-09T00:00:00+00:00",
+  "estimated_cost_usd": 0.591118700802,
+  "raw_definition_rows": 1037106,
+  "mnq_put_candidate_rows": 35,
+  "candidate_expirations": [
+    "2026-06-05T20:00:00+00:00",
+    "2026-06-12T20:00:00+00:00"
+  ],
+  "underlyings": [
+    "MNQM6"
+  ],
+  "assets": [
+    "MQ1",
+    "MQ2"
+  ],
+  "standard_target_short_strike": 26165.32,
+  "defensive_target_short_strike": 25288.27,
+  "standard_choices": [
+    {
+      "raw_symbol": "MQ1M6 P26100",
+      "instrument_id": 42870451,
+      "underlying": "MNQM6",
+      "asset": "MQ1",
+      "security_type": "OOF",
+      "instrument_class": "P",
+      "strike_price": 26100.0,
+      "expiration": "2026-06-05 20:00:00+00:00",
+      "expiration_local": "2026-06-05 16:00:00-04:00",
+      "expiration_date": "2026-06-05 00:00:00",
+      "dte_calendar": 28,
+      "activation": "2026-04-27 20:25:00+00:00",
+      "standard_target_distance_points": 65.31999999999971,
+      "defensive_target_distance_points": 811.7299999999996,
+      "distance_below_target": 65.31999999999971
+    },
+    {
+      "raw_symbol": "MQ2M6 P26100",
+      "instrument_id": 42884890,
+      "underlying": "MNQM6",
+      "asset": "MQ2",
+      "security_type": "OOF",
+      "instrument_class": "P",
+      "strike_price": 26100.0,
+      "expiration": "2026-06-12 20:00:00+00:00",
+      "expiration_local": "2026-06-12 16:00:00-04:00",
+      "expiration_date": "2026-06-12 00:00:00",
+      "dte_calendar": 35,
+      "activation": "2026-05-04 20:25:00+00:00",
+      "standard_target_distance_points": 65.31999999999971,
+      "defensive_target_distance_points": 811.7299999999996,
+      "distance_below_target": 65.31999999999971
+    }
+  ],
+  "defensive_choices": [
+    {
+      "raw_symbol": "MQ1M6 P25250",
+      "instrument_id": 42877897,
+      "underlying": "MNQM6",
+      "asset": "MQ1",
+      "security_type": "OOF",
+      "instrument_class": "P",
+      "strike_price": 25250.0,
+      "expiration": "2026-06-05 20:00:00+00:00",
+      "expiration_local": "2026-06-05 16:00:00-04:00",
+      "expiration_date": "2026-06-05 00:00:00",
+      "dte_calendar": 28,
+      "activation": "2026-04-27 20:25:00+00:00",
+      "standard_target_distance_points": 915.3199999999997,
+      "defensive_target_distance_points": 38.27000000000044,
+      "distance_below_target": 38.27000000000044
+    },
+    {
+      "raw_symbol": "MQ2M6 P25250",
+      "instrument_id": 42884925,
+      "underlying": "MNQM6",
+      "asset": "MQ2",
+      "security_type": "OOF",
+      "instrument_class": "P",
+      "strike_price": 25250.0,
+      "expiration": "2026-06-12 20:00:00+00:00",
+      "expiration_local": "2026-06-12 16:00:00-04:00",
+      "expiration_date": "2026-06-12 00:00:00",
+      "dte_calendar": 35,
+      "activation": "2026-05-04 20:25:00+00:00",
+      "standard_target_distance_points": 915.3199999999997,
+      "defensive_target_distance_points": 38.27000000000044,
+      "distance_below_target": 38.27000000000044
+    }
+  ],
+  "historical_definition_data_downloaded": true,
+  "raw_output": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/definitions/GLBX_MDP3_2026-05-08_definitions.dbn.zst",
+  "filtered_output": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/results/databento_definition_discovery/mnq_option_definition_candidates.csv"
+}

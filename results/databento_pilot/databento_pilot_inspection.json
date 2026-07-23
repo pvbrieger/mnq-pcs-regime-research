@@ -1,0 +1,134 @@
+{
+  "inspection_timestamp_utc": "2026-07-23T15:12:45.128563+00:00",
+  "dataset": "GLBX.MDP3",
+  "dataset_range": {
+    "start": "2010-06-06T00:00:00.000000000Z",
+    "end": "2026-07-23T07:12:36.576652000Z",
+    "schema": {
+      "mbo": {
+        "start": "2017-05-21T00:00:00.000000000Z",
+        "end": "2026-07-23T07:12:36.576652000Z"
+      },
+      "mbp-1": {
+        "start": "2010-06-06T00:00:00.000000000Z",
+        "end": "2026-07-23T07:12:36.576652000Z"
+      },
+      "mbp-10": {
+        "start": "2010-06-06T00:00:00.000000000Z",
+        "end": "2026-07-23T07:12:36.576652000Z"
+      },
+      "tbbo": {
+        "start": "2010-06-06T00:00:00.000000000Z",
+        "end": "2026-07-23T07:12:36.576652000Z"
+      },
+      "trades": {
+        "start": "2010-06-06T00:00:00.000000000Z",
+        "end": "2026-07-23T07:12:36.576652000Z"
+      },
+      "bbo-1s": {
+        "start": "2010-06-06T00:00:00.000000000Z",
+        "end": "2026-07-23T07:12:36.576652000Z"
+      },
+      "bbo-1m": {
+        "start": "2010-06-06T00:00:00.000000000Z",
+        "end": "2026-07-23T07:12:36.576652000Z"
+      },
+      "ohlcv-1s": {
+        "start": "2010-06-06T00:00:00.000000000Z",
+        "end": "2026-07-23T07:12:36.576652000Z"
+      },
+      "ohlcv-1m": {
+        "start": "2010-06-06T00:00:00.000000000Z",
+        "end": "2026-07-23T07:12:36.576652000Z"
+      },
+      "ohlcv-1h": {
+        "start": "2010-06-06T00:00:00.000000000Z",
+        "end": "2026-07-23T07:12:36.576652000Z"
+      },
+      "ohlcv-1d": {
+        "start": "2010-06-06T00:00:00.000000000Z",
+        "end": "2026-07-23T00:00:00.000000000Z"
+      },
+      "definition": {
+        "start": "2010-06-06T00:00:00.000000000Z",
+        "end": "2026-07-23T07:12:36.576652000Z"
+      },
+      "statistics": {
+        "start": "2010-06-06T00:00:00.000000000Z",
+        "end": "2026-07-23T07:12:36.576652000Z"
+      },
+      "status": {
+        "start": "2010-06-06T00:00:00.000000000Z",
+        "end": "2026-07-23T07:12:36.576652000Z"
+      }
+    }
+  },
+  "pilot_dates": [
+    {
+      "entry_date": "2026-04-10",
+      "weekly_close": 25116.34,
+      "short_strike_proxy": 22479.1243,
+      "vix_close": 19.23,
+      "rolling4w_range_atr14_ratio": 1.524800252629331,
+      "weekly_range_atr14_ratio": 1.594474648972377,
+      "below_sma40": false,
+      "candidate_score": 2,
+      "defensive_target_short_strike": 21725.6341
+    },
+    {
+      "entry_date": "2026-04-17",
+      "weekly_close": 26672.43,
+      "short_strike_proxy": 23871.82485,
+      "vix_close": 17.48,
+      "rolling4w_range_atr14_ratio": 2.3901848026562558,
+      "weekly_range_atr14_ratio": 1.8194711089348503,
+      "below_sma40": false,
+      "candidate_score": 2,
+      "defensive_target_short_strike": 23071.65195
+    },
+    {
+      "entry_date": "2026-05-08",
+      "weekly_close": 29234.99,
+      "short_strike_proxy": 26165.31605,
+      "vix_close": 17.19,
+      "rolling4w_range_atr14_ratio": 1.997227050175139,
+      "weekly_range_atr14_ratio": 1.7514811061908513,
+      "below_sma40": false,
+      "candidate_score": 2,
+      "defensive_target_short_strike": 25288.26635
+    }
+  ],
+  "quote_window_start_utc": "2026-05-08T19:40:00+00:00",
+  "quote_window_end_utc": "2026-05-08T19:50:00+00:00",
+  "futures_resolution": {
+    "symbol": "MNQ.v.0",
+    "resolved": true,
+    "resolution_count": 1,
+    "error": null
+  },
+  "option_parent_results": [
+    {
+      "symbol": "MNQ.OPT",
+      "resolved": false,
+      "resolution_count": 0,
+      "resolution_error": null,
+      "cost_estimates_usd": {}
+    },
+    {
+      "symbol": "MQN.OPT",
+      "resolved": false,
+      "resolution_count": 0,
+      "resolution_error": "422 symbology_invalid_request\nCould not resolve smart symbols: MQN.OPT\ndocumentation: https://databento.com/docs/api-reference-historical/basics/symbology",
+      "cost_estimates_usd": {}
+    },
+    {
+      "symbol": "NQ.OPT",
+      "resolved": false,
+      "resolution_count": 0,
+      "resolution_error": null,
+      "cost_estimates_usd": {}
+    }
+  ],
+  "resolved_option_parents": [],
+  "historical_data_downloaded": false
+}

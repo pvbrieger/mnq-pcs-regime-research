@@ -1,0 +1,25 @@
+dataset: GLBX.MDP3
+
+entry_timezone: America/New_York
+target_entry_time: "15:45"
+cost_estimate_window_minutes: 10
+
+pilot_date_count: 3
+minimum_pilot_entry_date: 2021-01-01
+
+defensive_additional_distance_fraction: 0.03
+
+# The script tests these without downloading historical time-series data.
+continuous_futures_symbol: MNQ.v.0
+
+# Parent symbols are intentionally tested rather than assumed.
+option_parent_candidates:
+  - MNQ.OPT
+  - MQN.OPT
+  - NQ.OPT
+
+# Costs are estimated for the entire option parent over a ten-minute window.
+# A later downloader will request only the selected option legs.
+quote_schemas_to_estimate:
+  - bbo-1s
+  - mbp-1
