@@ -1,0 +1,34 @@
+MNQ PCS REGIME RESEARCH — THRESHOLD SENSITIVITY
+=======================================================
+
+Analysis observations: 1,100
+Expiration failures: 20
+Threshold combinations tested: 375
+Failure clusters tested: 13
+
+Anchor definition
+-------------------------------------------------------
+Rolling four-week ATR threshold: 1.20
+Weekly ATR threshold: 1.20
+SMA length: 40 weeks
+Elevated score cutoff: 2 active flags
+Anchor elevated observations: 197
+Anchor elevated failures: 9
+Anchor normal failure rate: 1.22%
+Anchor elevated failure rate: 4.57%
+Anchor lift versus normal: 3.75x
+Anchor minimum cluster-removal lift: 2.16x
+Anchor classification: Robust
+
+Grid robustness
+-------------------------------------------------------
+Robust definitions: 125/375
+Supportive definitions: 122/375
+Higher elevated risk in all three subperiods: 125/375
+Higher elevated risk after every cluster removal: 324/375
+
+Local anchor neighborhood
+-------------------------------------------------------
+Neighboring definitions tested: 27
+Robust neighbors: 27/27
+Supportive or robust neighbors: 27/27
