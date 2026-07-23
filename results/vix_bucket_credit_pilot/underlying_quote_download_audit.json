@@ -1,0 +1,105 @@
+{
+  "dataset": "GLBX.MDP3",
+  "schema": "bbo-1s",
+  "estimated_missing_cost_usd": 0.714222639798,
+  "usable_underlying_quotes": 12,
+  "selected_spreads": 9,
+  "files": [
+    {
+      "entry_date": "2020-09-04",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2020-09-04_MNQ_underlying_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "estimated_cost_usd": 0.086041241884,
+      "estimated_record_count": 64157,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2020-10-30",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2020-10-30_MNQ_underlying_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "estimated_cost_usd": 0.097537189722,
+      "estimated_record_count": 72729,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2022-02-25",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2022-02-25_MNQ_underlying_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "estimated_cost_usd": 0.071498304605,
+      "estimated_record_count": 53313,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2022-05-13",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2022-05-13_MNQ_underlying_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "estimated_cost_usd": 0.099248439074,
+      "estimated_record_count": 74005,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2022-07-15",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2022-07-15_MNQ_underlying_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "estimated_cost_usd": 0.099247097969,
+      "estimated_record_count": 74004,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2023-05-26",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2023-05-26_MNQ_underlying_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "estimated_cost_usd": 0.058178454638,
+      "estimated_record_count": 43381,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2023-11-10",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2023-11-10_MNQ_underlying_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "estimated_cost_usd": 0.102446973324,
+      "estimated_record_count": 76390,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2024-03-15",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2024-03-15_MNQ_underlying_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "estimated_cost_usd": 0.096806287766,
+      "estimated_record_count": 72184,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2024-09-06",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2024-09-06_MNQ_underlying_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "estimated_cost_usd": 0.000804662704,
+      "estimated_record_count": 600,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2025-04-04",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2025-04-04_MNQ_underlying_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "estimated_cost_usd": 0.000804662704,
+      "estimated_record_count": 600,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2025-04-11",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2025-04-11_MNQ_underlying_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "estimated_cost_usd": 0.000804662704,
+      "estimated_record_count": 600,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2025-10-24",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2025-10-24_MNQ_underlying_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "estimated_cost_usd": 0.000804662704,
+      "estimated_record_count": 600,
+      "downloaded_during_this_run": true
+    }
+  ]
+}

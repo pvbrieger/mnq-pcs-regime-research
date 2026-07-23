@@ -1,0 +1,12 @@
+MNQ PCS REGIME RESEARCH — ALL-EXPIRATION RESELECTION
+====================================================================
+
+Underlying dates evaluated: 12
+Executable ladder spreads selected: 10
+Dates still unavailable: 2
+
+2024-09-06 | 20_to_25 | No exact 150-point pair at or below target in any eligible expiration
+2025-04-04 | over_40 | No exact 150-point pair at or below target in any eligible expiration
+
+No Databento request was made.
+No historical data was downloaded.

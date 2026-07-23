@@ -1,0 +1,14 @@
+bucket,selection_segment,entry_date,vix_close,ladder_distance_pct,dataset_condition,definition_cost_usd,definition_record_count
+15_to_20,earlier_half,2023-05-26,17.95,10.5,available,0.393028110266,689560.0
+15_to_20,later_half,2025-10-24,16.37,10.5,available,0.530715052038,931129.0
+20_to_25,earlier_half,2022-07-15,24.23,12.5,available,0.40331434831,707607.0
+20_to_25,later_half,2024-09-06,22.38,12.5,available,0.425116248429,745858.0
+25_to_30,earlier_half,2022-02-25,27.59,15.0,available,0.436900936067,766534.0
+25_to_30,later_half,2022-05-13,28.87,15.0,available,0.414037182927,726420.0
+30_to_35,earlier_half,2020-09-04,30.75,15.0,available,0.334968175739,587695.0
+30_to_35,later_half,2022-10-07,31.36,15.0,available,0.397907048464,698120.0
+35_to_40,earlier_half,2020-10-30,38.02,15.0,available,0.336068216711,589625.0
+35_to_40,later_half,2025-04-11,37.56,15.0,available,0.513089887798,900206.0
+below_15,earlier_half,2023-11-10,14.17,9.0,available,0.386653002352,678375.0
+below_15,later_half,2024-03-15,14.41,9.0,available,0.421429116279,739389.0
+over_40,single_available_sample,2025-04-04,45.31,15.0,available,0.509061343968,893138.0

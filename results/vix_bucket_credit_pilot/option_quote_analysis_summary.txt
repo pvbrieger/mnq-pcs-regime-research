@@ -1,0 +1,10 @@
+MNQ PCS REGIME RESEARCH — VIX-BUCKET OPTION QUOTES
+==================================================================
+
+Executable spread dates requested: 10
+Complete spread quotes: 6
+Dates with zero BBO records: 2020-09-04
+Non-executable ladder dates: 2024-09-06, 2025-04-04
+Midpoint credit-floor passes: 3
+
+Midpoint credits are indicative estimates, not guaranteed fills.

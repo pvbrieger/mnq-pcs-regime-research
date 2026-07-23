@@ -1,0 +1,8 @@
+bucket,ladder_distance_pct,candidate_fridays,requested_samples,selected_samples
+below_15,9.0,46,2,2
+15_to_20,10.5,96,2,2
+20_to_25,12.5,57,2,2
+25_to_30,15.0,27,2,2
+30_to_35,15.0,11,2,2
+35_to_40,15.0,2,2,2
+over_40,15.0,1,1,1

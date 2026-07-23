@@ -1,0 +1,57 @@
+dataset: GLBX.MDP3
+
+# CME launch date for Micro E-mini Nasdaq-100 options.
+mnq_options_launch_date: 2020-08-31
+
+# Fixed to the last observation in the current VIX source snapshot so the
+# random sample remains reproducible as new market data is added later.
+selection_end_date: 2026-07-02
+
+boundary_buffer_points: 0.50
+random_seed: 20260723
+
+accepted_dataset_conditions:
+  - available
+
+buckets:
+  - label: below_15
+    minimum:
+    maximum: 15.0
+    ladder_distance_pct: 9.0
+    sample_count: 2
+
+  - label: 15_to_20
+    minimum: 15.0
+    maximum: 20.0
+    ladder_distance_pct: 10.5
+    sample_count: 2
+
+  - label: 20_to_25
+    minimum: 20.0
+    maximum: 25.0
+    ladder_distance_pct: 12.5
+    sample_count: 2
+
+  - label: 25_to_30
+    minimum: 25.0
+    maximum: 30.0
+    ladder_distance_pct: 15.0
+    sample_count: 2
+
+  - label: 30_to_35
+    minimum: 30.0
+    maximum: 35.0
+    ladder_distance_pct: 15.0
+    sample_count: 2
+
+  - label: 35_to_40
+    minimum: 35.0
+    maximum: 40.0
+    ladder_distance_pct: 15.0
+    sample_count: 2
+
+  - label: over_40
+    minimum: 40.0
+    maximum:
+    ladder_distance_pct: 15.0
+    sample_count: 1

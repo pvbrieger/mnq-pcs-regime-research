@@ -1,0 +1,9 @@
+MNQ PCS REGIME RESEARCH — UNDERLYING QUOTE ESTIMATE
+================================================================
+
+Usable dates: 12
+Excluded dates: 2022-10-07
+Estimated quote cost: $0.714223
+Estimated records: 532,563
+
+The next checkpoint will download only these MNQ futures quotes and calculate ladder targets.

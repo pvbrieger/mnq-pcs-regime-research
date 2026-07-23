@@ -1,0 +1,9 @@
+MNQ PCS REGIME RESEARCH — UNDERLYING QUOTES AND SPREADS
+====================================================================
+
+Input dates: 12
+Valid underlying quotes: 12
+Exact ladder spreads selected: 9
+Estimated download cost: $0.714223
+
+No option quotes were downloaded.

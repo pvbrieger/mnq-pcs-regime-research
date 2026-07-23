@@ -1,0 +1,146 @@
+{
+  "dataset": "GLBX.MDP3",
+  "vix_source": "/Users/billrieger/Library/CloudStorage/GoogleDrive-brieger@gmail.com/My Drive/10Talents/Trading Research/shared-market-data/VIX/vix_daily.csv",
+  "mnq_options_launch_date": "2020-08-31",
+  "selection_end_date": "2026-07-02",
+  "boundary_buffer_points": 0.5,
+  "random_seed": 20260723,
+  "accepted_dataset_conditions": [
+    "available"
+  ],
+  "selected_dates": [
+    {
+      "bucket": "15_to_20",
+      "selection_segment": "earlier_half",
+      "entry_date": "2023-05-26",
+      "vix_close": 17.95,
+      "ladder_distance_pct": 10.5,
+      "dataset_condition": "available",
+      "definition_cost_usd": 0.393028110266,
+      "definition_record_count": 689560.0
+    },
+    {
+      "bucket": "15_to_20",
+      "selection_segment": "later_half",
+      "entry_date": "2025-10-24",
+      "vix_close": 16.37,
+      "ladder_distance_pct": 10.5,
+      "dataset_condition": "available",
+      "definition_cost_usd": 0.530715052038,
+      "definition_record_count": 931129.0
+    },
+    {
+      "bucket": "20_to_25",
+      "selection_segment": "earlier_half",
+      "entry_date": "2022-07-15",
+      "vix_close": 24.23,
+      "ladder_distance_pct": 12.5,
+      "dataset_condition": "available",
+      "definition_cost_usd": 0.40331434831,
+      "definition_record_count": 707607.0
+    },
+    {
+      "bucket": "20_to_25",
+      "selection_segment": "later_half",
+      "entry_date": "2024-09-06",
+      "vix_close": 22.38,
+      "ladder_distance_pct": 12.5,
+      "dataset_condition": "available",
+      "definition_cost_usd": 0.425116248429,
+      "definition_record_count": 745858.0
+    },
+    {
+      "bucket": "25_to_30",
+      "selection_segment": "earlier_half",
+      "entry_date": "2022-02-25",
+      "vix_close": 27.59,
+      "ladder_distance_pct": 15.0,
+      "dataset_condition": "available",
+      "definition_cost_usd": 0.436900936067,
+      "definition_record_count": 766534.0
+    },
+    {
+      "bucket": "25_to_30",
+      "selection_segment": "later_half",
+      "entry_date": "2022-05-13",
+      "vix_close": 28.87,
+      "ladder_distance_pct": 15.0,
+      "dataset_condition": "available",
+      "definition_cost_usd": 0.414037182927,
+      "definition_record_count": 726420.0
+    },
+    {
+      "bucket": "30_to_35",
+      "selection_segment": "earlier_half",
+      "entry_date": "2020-09-04",
+      "vix_close": 30.75,
+      "ladder_distance_pct": 15.0,
+      "dataset_condition": "available",
+      "definition_cost_usd": 0.334968175739,
+      "definition_record_count": 587695.0
+    },
+    {
+      "bucket": "30_to_35",
+      "selection_segment": "later_half",
+      "entry_date": "2022-10-07",
+      "vix_close": 31.36,
+      "ladder_distance_pct": 15.0,
+      "dataset_condition": "available",
+      "definition_cost_usd": 0.397907048464,
+      "definition_record_count": 698120.0
+    },
+    {
+      "bucket": "35_to_40",
+      "selection_segment": "earlier_half",
+      "entry_date": "2020-10-30",
+      "vix_close": 38.02,
+      "ladder_distance_pct": 15.0,
+      "dataset_condition": "available",
+      "definition_cost_usd": 0.336068216711,
+      "definition_record_count": 589625.0
+    },
+    {
+      "bucket": "35_to_40",
+      "selection_segment": "later_half",
+      "entry_date": "2025-04-11",
+      "vix_close": 37.56,
+      "ladder_distance_pct": 15.0,
+      "dataset_condition": "available",
+      "definition_cost_usd": 0.513089887798,
+      "definition_record_count": 900206.0
+    },
+    {
+      "bucket": "below_15",
+      "selection_segment": "earlier_half",
+      "entry_date": "2023-11-10",
+      "vix_close": 14.17,
+      "ladder_distance_pct": 9.0,
+      "dataset_condition": "available",
+      "definition_cost_usd": 0.386653002352,
+      "definition_record_count": 678375.0
+    },
+    {
+      "bucket": "below_15",
+      "selection_segment": "later_half",
+      "entry_date": "2024-03-15",
+      "vix_close": 14.41,
+      "ladder_distance_pct": 9.0,
+      "dataset_condition": "available",
+      "definition_cost_usd": 0.421429116279,
+      "definition_record_count": 739389.0
+    },
+    {
+      "bucket": "over_40",
+      "selection_segment": "single_available_sample",
+      "entry_date": "2025-04-04",
+      "vix_close": 45.31,
+      "ladder_distance_pct": 15.0,
+      "dataset_condition": "available",
+      "definition_cost_usd": 0.509061343968,
+      "definition_record_count": 893138.0
+    }
+  ],
+  "combined_estimated_definition_cost_usd": 5.502288669347999,
+  "combined_estimated_definition_record_count": 9653656,
+  "historical_data_downloaded": false
+}

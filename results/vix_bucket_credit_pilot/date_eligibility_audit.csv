@@ -1,0 +1,14 @@
+entry_date,bucket,vix_close,ladder_distance_pct,eligible_26_to_35_dte,candidate_rows,expiration_count,expirations_with_150_point_pair,status
+2023-05-26,15_to_20,17.95,10.5,True,224,2,2,Eligible
+2025-10-24,15_to_20,16.37,10.5,True,286,2,2,Eligible
+2022-07-15,20_to_25,24.23,12.5,True,451,2,2,Eligible
+2024-09-06,20_to_25,22.38,12.5,True,49,1,1,Eligible
+2022-02-25,25_to_30,27.59,15.0,True,751,1,1,Eligible
+2022-05-13,25_to_30,28.87,15.0,True,225,1,1,Eligible
+2020-09-04,30_to_35,30.75,15.0,True,471,1,1,Eligible
+2022-10-07,30_to_35,31.36,15.0,False,0,0,0,No MNQ put expiration in 26–35 calendar DTE
+2020-10-30,35_to_40,38.02,15.0,True,937,2,2,Eligible
+2025-04-11,35_to_40,37.56,15.0,True,207,2,2,Eligible
+2023-11-10,below_15,14.17,9.0,True,331,3,3,Eligible
+2024-03-15,below_15,14.41,9.0,True,265,2,2,Eligible
+2025-04-04,over_40,45.31,15.0,True,211,2,2,Eligible

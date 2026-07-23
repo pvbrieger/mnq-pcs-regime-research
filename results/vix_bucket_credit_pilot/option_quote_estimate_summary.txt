@@ -1,0 +1,9 @@
+MNQ PCS REGIME RESEARCH — OPTION QUOTE ESTIMATE
+==============================================================
+
+Executable dates: 10
+Non-executable dates: 2
+Estimated quote cost: $0.042297
+Estimated records: 31,539
+
+No historical option quotes were downloaded.

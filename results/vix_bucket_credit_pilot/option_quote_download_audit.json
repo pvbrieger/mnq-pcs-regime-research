@@ -1,0 +1,103 @@
+{
+  "dataset": "GLBX.MDP3",
+  "schema": "bbo-1s",
+  "mnq_multiplier": 2.0,
+  "credit_floor_points": 8.25,
+  "estimated_downloadable_cost_usd": 0.04229709506,
+  "zero_record_dates": [
+    "2020-09-04"
+  ],
+  "complete_spread_quotes": 6,
+  "files": [
+    {
+      "entry_date": "2020-09-04",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2020-09-04_MNQ_option_legs_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "action": "no records available",
+      "estimated_cost_usd": 0.0,
+      "estimated_record_count": 0,
+      "downloaded_during_this_run": false
+    },
+    {
+      "entry_date": "2020-10-30",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2020-10-30_MNQ_option_legs_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "action": "download required",
+      "estimated_cost_usd": 0.016196519136,
+      "estimated_record_count": 12077,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2022-02-25",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2022-02-25_MNQ_option_legs_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "action": "download required",
+      "estimated_cost_usd": 0.005302727222,
+      "estimated_record_count": 3954,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2022-05-13",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2022-05-13_MNQ_option_legs_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "action": "download required",
+      "estimated_cost_usd": 0.003292411566,
+      "estimated_record_count": 2455,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2022-07-15",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2022-07-15_MNQ_option_legs_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "action": "download required",
+      "estimated_cost_usd": 0.000344663858,
+      "estimated_record_count": 257,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2023-05-26",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2023-05-26_MNQ_option_legs_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "action": "download required",
+      "estimated_cost_usd": 0.000516325235,
+      "estimated_record_count": 385,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2023-11-10",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2023-11-10_MNQ_option_legs_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "action": "download required",
+      "estimated_cost_usd": 0.009386390448,
+      "estimated_record_count": 6999,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2024-03-15",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2024-03-15_MNQ_option_legs_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "action": "download required",
+      "estimated_cost_usd": 0.006162375212,
+      "estimated_record_count": 4595,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2025-04-11",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2025-04-11_MNQ_option_legs_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "action": "download required",
+      "estimated_cost_usd": 0.000918656588,
+      "estimated_record_count": 685,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2025-10-24",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2025-10-24_MNQ_option_legs_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "action": "download required",
+      "estimated_cost_usd": 0.000177025795,
+      "estimated_record_count": 132,
+      "downloaded_during_this_run": true
+    }
+  ]
+}

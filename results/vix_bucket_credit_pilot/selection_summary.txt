@@ -1,0 +1,25 @@
+MNQ PCS REGIME RESEARCH — PURE-MNQ VIX-BUCKET PILOT
+==================================================================
+
+VIX source: /Users/billrieger/Library/CloudStorage/GoogleDrive-brieger@gmail.com/My Drive/10Talents/Trading Research/shared-market-data/VIX/vix_daily.csv
+Study begins: 2020-08-31
+Study cutoff: 2026-07-02
+Selected dates: 13
+Definition cost estimate: $5.502289
+Definition record estimate: 9,653,656
+
+Selected dates
+------------------------------------------------------------------
+15_to_20 | 2023-05-26 | VIX=17.95 | Ladder=10.5% | Condition=available
+15_to_20 | 2025-10-24 | VIX=16.37 | Ladder=10.5% | Condition=available
+20_to_25 | 2022-07-15 | VIX=24.23 | Ladder=12.5% | Condition=available
+20_to_25 | 2024-09-06 | VIX=22.38 | Ladder=12.5% | Condition=available
+25_to_30 | 2022-02-25 | VIX=27.59 | Ladder=15.0% | Condition=available
+25_to_30 | 2022-05-13 | VIX=28.87 | Ladder=15.0% | Condition=available
+30_to_35 | 2020-09-04 | VIX=30.75 | Ladder=15.0% | Condition=available
+30_to_35 | 2022-10-07 | VIX=31.36 | Ladder=15.0% | Condition=available
+35_to_40 | 2020-10-30 | VIX=38.02 | Ladder=15.0% | Condition=available
+35_to_40 | 2025-04-11 | VIX=37.56 | Ladder=15.0% | Condition=available
+below_15 | 2023-11-10 | VIX=14.17 | Ladder=9.0% | Condition=available
+below_15 | 2024-03-15 | VIX=14.41 | Ladder=9.0% | Condition=available
+over_40 | 2025-04-04 | VIX=45.31 | Ladder=15.0% | Condition=available

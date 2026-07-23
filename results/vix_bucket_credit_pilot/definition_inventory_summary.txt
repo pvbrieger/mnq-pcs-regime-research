@@ -1,0 +1,9 @@
+MNQ PCS REGIME RESEARCH — COMPLETE DEFINITION INVENTORY
+==================================================================
+
+Selected dates: 13
+Dates with 26–35 DTE MNQ puts: 12
+Dates with at least one exact 150-point pair: 12
+Dates requiring replacement: 2022-10-07
+
+No new historical data was downloaded.
