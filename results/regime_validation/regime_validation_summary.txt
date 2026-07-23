@@ -1,0 +1,12 @@
+MNQ PCS REGIME RESEARCH — CANDIDATE SCORE VALIDATION
+==========================================================
+
+Overall normal failure rate: 1.22%
+Overall elevated failure rate: 4.57%
+Overall elevated lift: 3.75x
+Overall Fisher p-value: 0.0043
+
+Subperiods with elevated rate above normal: 3/3
+Cluster-removal tests with elevated rate above normal: 13/13
+Minimum leave-one-cluster-out lift: 2.16x
+Median leave-one-cluster-out lift: 4.08x
