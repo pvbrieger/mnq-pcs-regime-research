@@ -1,0 +1,63 @@
+# Provider-agnostic premium-feasibility data contract.
+
+input_csv: data/raw/options/friday_spread_candidates.csv
+processed_parquet: data/processed/friday_spread_candidates.parquet
+results_directory: results/premium_feasibility
+
+entry_timezone: America/New_York
+target_entry_time: "15:45"
+maximum_quote_age_minutes: 5.0
+
+dte_calendar_min: 26
+dte_calendar_max: 35
+
+spread_width_points: 150.0
+spread_width_tolerance_points: 0.01
+
+minimum_credit_points: 8.25
+
+allowed_candidate_types:
+  - standard
+  - defensive
+
+allowed_settlement_types:
+  - PM
+
+# The listed short strike should be selected at or below the theoretical target.
+require_actual_short_at_or_below_target: true
+
+standard_candidate:
+  target_source: pcs.friday_trade_baseline.short_strike_proxy
+  selection_rule: nearest listed short strike at or below target
+
+defensive_candidate:
+  additional_distance_fraction: 0.03
+  target_formula: standard target short strike minus 3 percent of Friday spot
+  selection_rule: nearest listed short strike at or below target
+
+credit_definitions:
+  natural_credit: short bid minus long ask
+  mid_credit: short midpoint minus long midpoint
+  optimistic_credit: short ask minus long bid
+
+required_columns:
+  - entry_date
+  - quote_timestamp_utc
+  - data_source
+  - underlying_symbol
+  - underlying_price
+  - expiration_date
+  - dte_calendar
+  - settlement_type
+  - candidate_type
+  - target_short_strike
+  - actual_short_strike
+  - actual_long_strike
+  - short_bid
+  - short_ask
+  - long_bid
+  - long_ask
+  - short_open_interest
+  - long_open_interest
+  - short_volume
+  - long_volume
