@@ -1,0 +1,29 @@
+MNQ PCS REGIME RESEARCH — SPREAD P&L SCENARIOS
+=======================================================
+
+Methodological status
+-------------------------------------------------------
+Fixed-credit expiration proxy; not a historical options backtest.
+Short strike source: short_strike_proxy
+Expiration settlement source: expiration_close
+Spread width: 150.00 points
+Contract multiplier: $2.00 per point
+Credit scenarios: 8.25, 10.00, 12.00, 14.00
+
+Forward-test elevated-regime break-even credits
+-------------------------------------------------------
+Both ATR expansion flags | N=100 | Failures=4 | Break-even credit=4.65
+Full score, at least 2 of 3 flags | N=138 | Failures=5 | Break-even credit=4.46
+
+Forward-test policies at 8.25-point credit
+-------------------------------------------------------
+Both ATR expansion flags | Full size | Exposure retained=100.0% | Total P&L=$10,420 | P&L difference vs full=$0 | Max drawdown=$652 | Drawdown reduction=0.0%
+Both ATR expansion flags | Reduce elevated size to 75% | Exposure retained=96.9% | Total P&L=$10,240 | P&L difference vs full=$-180 | Max drawdown=$673 | Drawdown reduction=-3.2%
+Both ATR expansion flags | Reduce elevated size to 50% | Exposure retained=93.8% | Total P&L=$10,060 | P&L difference vs full=$-360 | Max drawdown=$694 | Drawdown reduction=-6.3%
+Both ATR expansion flags | Reduce elevated size to 25% | Exposure retained=90.7% | Total P&L=$9,880 | P&L difference vs full=$-540 | Max drawdown=$714 | Drawdown reduction=-9.5%
+Both ATR expansion flags | Skip elevated entries | Exposure retained=87.6% | Total P&L=$9,700 | P&L difference vs full=$-720 | Max drawdown=$735 | Drawdown reduction=-12.6%
+Full score, at least 2 of 3 flags | Full size | Exposure retained=100.0% | Total P&L=$10,420 | P&L difference vs full=$0 | Max drawdown=$652 | Drawdown reduction=0.0%
+Full score, at least 2 of 3 flags | Reduce elevated size to 75% | Exposure retained=95.7% | Total P&L=$10,158 | P&L difference vs full=$-262 | Max drawdown=$615 | Drawdown reduction=5.8%
+Full score, at least 2 of 3 flags | Reduce elevated size to 50% | Exposure retained=91.4% | Total P&L=$9,896 | P&L difference vs full=$-523 | Max drawdown=$577 | Drawdown reduction=11.6%
+Full score, at least 2 of 3 flags | Reduce elevated size to 25% | Exposure retained=87.1% | Total P&L=$9,635 | P&L difference vs full=$-785 | Max drawdown=$567 | Drawdown reduction=13.1%
+Full score, at least 2 of 3 flags | Skip elevated entries | Exposure retained=82.9% | Total P&L=$9,373 | P&L difference vs full=$-1,047 | Max drawdown=$567 | Drawdown reduction=13.1%

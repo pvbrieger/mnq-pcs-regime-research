@@ -1,0 +1,17 @@
+spread_width_points: 150.0
+
+# MNQ options are represented here as $2 per index point.
+# Change this value only if the operational contract specification differs.
+contract_multiplier_dollars_per_point: 2.0
+
+# Fixed-credit scenarios are illustrative because historical option quotes
+# are not yet available. The first value is the strategy's credit floor.
+credit_scenarios_points:
+  - 8.25
+  - 10.00
+  - 12.00
+  - 14.00
+
+# Four consecutive weekly entries approximate the steady-state maximum
+# number of overlapping cohorts. This is not an exact portfolio margin model.
+consecutive_trade_window: 4
