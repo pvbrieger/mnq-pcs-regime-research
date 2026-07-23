@@ -1,0 +1,10 @@
+MNQ PCS REGIME RESEARCH — CLOSER-STRIKE ECONOMICS
+==================================================================
+
+Date-level requests: 10
+Complete distance quotes: 21
+Dates with zero BBO records: 2020-09-04
+
+Gross edge equals midpoint credit minus historical mean expiration intrinsic loss.
+Conservative edge equals midpoint credit minus the upper year-block-bootstrap loss estimate.
+Midpoint is an indicative fair-value estimate, not a guaranteed fill.

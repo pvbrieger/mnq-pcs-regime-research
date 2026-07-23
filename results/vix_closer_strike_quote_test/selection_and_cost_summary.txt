@@ -1,0 +1,12 @@
+MNQ PCS REGIME RESEARCH — CLOSER-STRIKE QUOTE TEST
+====================================================================
+
+Dates evaluated: 12
+Executable distance-date combinations: 40
+Estimated quote cost: $0.172982
+Estimated records: 128,985
+
+A single expiration is used per date so market-credit changes across distances are not confounded by DTE.
+Historical expected loss is joined at the requested target distance. Because the selected strike is rounded at or below the target, this is generally conservative.
+
+No historical option quotes were downloaded.

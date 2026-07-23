@@ -1,0 +1,24 @@
+spread_width_points: 150.0
+strike_tolerance_points: 0.01
+
+minimum_dte_calendar: 26
+maximum_dte_calendar: 35
+target_dte_calendar: 28
+
+quote_window_minutes: 10
+
+# Current ladder plus 1%, 2%, and 3% closer to MNQ.
+closer_offsets_pct:
+  - 0.0
+  - 1.0
+  - 2.0
+  - 3.0
+
+current_ladder_distances_pct:
+  below_15: 9.0
+  15_to_20: 10.5
+  20_to_25: 12.5
+  25_to_30: 15.0
+  30_to_35: 15.0
+  35_to_40: 15.0
+  over_40: 15.0
