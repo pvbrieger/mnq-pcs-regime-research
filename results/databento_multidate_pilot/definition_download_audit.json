@@ -1,0 +1,22 @@
+{
+  "dataset": "GLBX.MDP3",
+  "estimated_missing_cost_usd": 1.2196798324590001,
+  "files": [
+    {
+      "entry_date": "2026-04-10",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/definitions/GLBX_MDP3_2026-04-10_definitions.dbn.zst",
+      "file_reused": false,
+      "estimated_cost_usd": 0.601290944964,
+      "estimated_record_count": 1054953,
+      "downloaded_during_this_run": true
+    },
+    {
+      "entry_date": "2026-04-17",
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/definitions/GLBX_MDP3_2026-04-17_definitions.dbn.zst",
+      "file_reused": false,
+      "estimated_cost_usd": 0.618388887495,
+      "estimated_record_count": 1084951,
+      "downloaded_during_this_run": true
+    }
+  ]
+}

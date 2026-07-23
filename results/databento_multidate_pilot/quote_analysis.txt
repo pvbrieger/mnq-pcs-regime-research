@@ -1,0 +1,5 @@
+MNQ PCS REGIME RESEARCH — MULTI-DATE QUOTE PILOT
+==============================================================
+
+2026-04-10 | exploratory | Standard mid=8.75 | Defensive mid=4.625 | Haircut=4.125 | Separation pct=3.9561461202569514
+2026-04-17 | clean_pilot | Standard mid=4.875 | Defensive mid=0.75 | Haircut=4.125 | Separation pct=3.1689221936397867

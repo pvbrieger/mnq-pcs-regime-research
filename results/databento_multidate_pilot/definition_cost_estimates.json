@@ -1,0 +1,37 @@
+{
+  "dataset": "GLBX.MDP3",
+  "schema": "definition",
+  "symbols": "ALL_SYMBOLS",
+  "stype_in": "raw_symbol",
+  "pilots": [
+    {
+      "entry_date": "2026-04-10",
+      "score": 2,
+      "ndx_close": 25116.34,
+      "standard_target_short_strike": 22479.12,
+      "defensive_target_short_strike": 21725.63,
+      "request_start_utc": "2026-04-10T00:00:00+00:00",
+      "request_end_utc": "2026-04-11T00:00:00+00:00",
+      "estimated_cost_usd": 0.601290944964,
+      "estimated_record_count": 1054953,
+      "cost_error": null,
+      "record_count_error": null
+    },
+    {
+      "entry_date": "2026-04-17",
+      "score": 2,
+      "ndx_close": 26672.43,
+      "standard_target_short_strike": 23871.82,
+      "defensive_target_short_strike": 23071.65,
+      "request_start_utc": "2026-04-17T00:00:00+00:00",
+      "request_end_utc": "2026-04-18T00:00:00+00:00",
+      "estimated_cost_usd": 0.618388887495,
+      "estimated_record_count": 1084951,
+      "cost_error": null,
+      "record_count_error": null
+    }
+  ],
+  "combined_estimated_cost_usd": 1.2196798324590001,
+  "combined_estimated_record_count": 2139904,
+  "historical_data_downloaded": false
+}

@@ -1,0 +1,8 @@
+MNQ PCS REGIME RESEARCH — MULTI-DATE QUOTE ESTIMATE
+==============================================================
+
+2026-04-10 | Condition=degraded | Symbols=5 | Cost=0.002778768539 | Records=2072
+2026-04-17 | Condition=available | Symbols=5 | Cost=0.003083199263 | Records=2299
+
+Combined estimated cost: 0.005861967802
+Degraded dates are exploratory only.

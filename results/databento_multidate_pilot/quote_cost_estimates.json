@@ -1,0 +1,70 @@
+{
+  "dataset": "GLBX.MDP3",
+  "schema": "bbo-1s",
+  "dates": [
+    {
+      "entry_date": "2026-04-10",
+      "dataset_condition": {
+        "date": "2026-04-10",
+        "condition": "degraded",
+        "last_modified_date": "2026-04-11"
+      },
+      "target_entry_timestamp_local": "2026-04-10T15:45:00-04:00",
+      "quote_window_start_utc": "2026-04-10T19:40:00+00:00",
+      "quote_window_end_utc": "2026-04-10T19:50:00+00:00",
+      "option_symbols": [
+        "MQ3K6 P21250",
+        "MQ3K6 P21400",
+        "MQ3K6 P22250",
+        "MQ3K6 P22400"
+      ],
+      "underlying_symbols": [
+        "MNQM6"
+      ],
+      "all_symbols": [
+        "MNQM6",
+        "MQ3K6 P21250",
+        "MQ3K6 P21400",
+        "MQ3K6 P22250",
+        "MQ3K6 P22400"
+      ],
+      "estimated_cost_usd": 0.002778768539,
+      "estimated_record_count": 2072,
+      "cost_error": null,
+      "record_count_error": null
+    },
+    {
+      "entry_date": "2026-04-17",
+      "dataset_condition": {
+        "date": "2026-04-17",
+        "condition": "available",
+        "last_modified_date": "2026-04-18"
+      },
+      "target_entry_timestamp_local": "2026-04-17T15:45:00-04:00",
+      "quote_window_start_utc": "2026-04-17T19:40:00+00:00",
+      "quote_window_end_utc": "2026-04-17T19:50:00+00:00",
+      "option_symbols": [
+        "MQ3K6 P22750",
+        "MQ3K6 P22900",
+        "MQ3K6 P23600",
+        "MQ3K6 P23750"
+      ],
+      "underlying_symbols": [
+        "MNQM6"
+      ],
+      "all_symbols": [
+        "MNQM6",
+        "MQ3K6 P22750",
+        "MQ3K6 P22900",
+        "MQ3K6 P23600",
+        "MQ3K6 P23750"
+      ],
+      "estimated_cost_usd": 0.003083199263,
+      "estimated_record_count": 2299,
+      "cost_error": null,
+      "record_count_error": null
+    }
+  ],
+  "combined_estimated_cost_usd": 0.005861967802,
+  "historical_quotes_downloaded": false
+}

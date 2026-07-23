@@ -1,0 +1,39 @@
+{
+  "dataset": "GLBX.MDP3",
+  "schema": "bbo-1s",
+  "estimated_missing_cost_usd": 0.005861967802,
+  "dates": [
+    {
+      "entry_date": "2026-04-10",
+      "condition": "degraded",
+      "symbols": [
+        "MNQM6",
+        "MQ3K6 P21250",
+        "MQ3K6 P21400",
+        "MQ3K6 P22250",
+        "MQ3K6 P22400"
+      ],
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2026-04-10_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "downloaded_during_this_run": true,
+      "estimated_cost_usd": 0.002778768539,
+      "estimated_record_count": 2072
+    },
+    {
+      "entry_date": "2026-04-17",
+      "condition": "available",
+      "symbols": [
+        "MNQM6",
+        "MQ3K6 P22750",
+        "MQ3K6 P22900",
+        "MQ3K6 P23600",
+        "MQ3K6 P23750"
+      ],
+      "raw_path": "/Users/billrieger/Documents/Projects/mnq-pcs-regime-research/data/raw/databento/quotes/GLBX_MDP3_2026-04-17_bbo-1s.dbn.zst",
+      "file_reused": false,
+      "downloaded_during_this_run": true,
+      "estimated_cost_usd": 0.003083199263,
+      "estimated_record_count": 2299
+    }
+  ]
+}
