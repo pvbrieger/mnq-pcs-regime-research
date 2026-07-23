@@ -1,0 +1,29 @@
+MNQ PCS REGIME RESEARCH — MODEL SIMPLICITY COMPARISON
+=============================================================
+
+Purpose
+-------------------------------------------------------------
+Determine whether the full three-factor score earns its added complexity versus simpler rules.
+
+Pooled chronological test set
+-------------------------------------------------------------
+Observations: 805
+Failures: 12
+
+Predictive ranking
+-------------------------------------------------------------
+1. Both ATR expansion flags | Elevated N=100 (12.4%) | Failures=4 (4.00%) | Lift=3.52x | Captured=33.3% | Brier=0.014747 | Skill=0.36%
+2. Full score: at least 2 of 3 flags | Elevated N=138 (17.1%) | Failures=5 (3.62%) | Lift=3.45x | Captured=41.7% | Brier=0.014758 | Skill=0.28%
+3. Rolling four-week ATR expansion only | Elevated N=202 (25.1%) | Failures=6 (2.97%) | Lift=2.99x | Captured=50.0% | Brier=0.014777 | Skill=0.15%
+4. Any one of the three flags | Elevated N=408 (50.7%) | Failures=8 (1.96%) | Lift=1.95x | Captured=66.7% | Brier=0.014821 | Skill=-0.14%
+5. Weekly ATR expansion only | Elevated N=239 (29.7%) | Failures=6 (2.51%) | Lift=2.37x | Captured=50.0% | Brier=0.014829 | Skill=-0.19%
+6. Either ATR expansion flag | Elevated N=341 (42.4%) | Failures=8 (2.35%) | Lift=2.72x | Captured=66.7% | Brier=0.014839 | Skill=-0.26%
+7. Below 40-week SMA only | Elevated N=138 (17.1%) | Failures=2 (1.45%) | Lift=0.97x | Captured=16.7% | Brier=0.014921 | Skill=-0.82%
+
+Complexity assessment
+-------------------------------------------------------------
+A simpler rule matched the full score closely; simplicity may deserve preference.
+
+Best predictive model: Both ATR expansion flags
+Full-score predictive rank: 2/7
+Best simpler model: Both ATR expansion flags

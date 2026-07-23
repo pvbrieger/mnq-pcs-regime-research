@@ -1,0 +1,8 @@
+model_id,model_label,both_elevated_observations,both_elevated_failures,full_only_observations,full_only_failures,model_only_observations,model_only_failures,neither_observations,neither_failures,agreement_rate,jaccard_elevated_overlap
+full_three_factor_score,Full score: at least 2 of 3 flags,138,5,0,0,0,0,667,7,1.0,1.0
+any_one_flag,Any one of the three flags,138,5,0,0,270,3,397,4,0.6645962732919255,0.3382352941176471
+rolling_atr_only,Rolling four-week ATR expansion only,120,5,18,0,82,1,585,6,0.8757763975155279,0.5454545454545454
+weekly_atr_only,Weekly ATR expansion only,118,4,20,1,121,2,546,5,0.8248447204968944,0.4555984555984556
+trend_only,Below 40-week SMA only,71,2,67,3,67,0,600,7,0.8335403726708075,0.3463414634146341
+atr_any,Either ATR expansion flag,138,5,0,0,203,3,464,4,0.7478260869565218,0.4046920821114369
+atr_both,Both ATR expansion flags,100,4,38,1,0,0,667,7,0.9527950310559006,0.7246376811594203
