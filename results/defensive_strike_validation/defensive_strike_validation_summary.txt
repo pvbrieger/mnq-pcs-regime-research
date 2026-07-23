@@ -1,0 +1,20 @@
+MNQ PCS REGIME RESEARCH — DEFENSIVE STRIKE CLUSTER VALIDATION
+====================================================================
+
+Methodological status
+--------------------------------------------------------------------
+Fixed-credit expiration proxy; not a historical options backtest.
+Leave-one-cluster-out tests remove every trade whose holding period overlaps the selected failure cluster.
+The concentration assessment is descriptive, not an operational trading rule.
+Entry spot source: weekly_close
+Short strike source: short_strike_proxy
+Settlement source: expiration_close
+
+Forward-test validation
+--------------------------------------------------------------------
+Both ATR expansion flags | Extra=1.5% | Failures=4->2 | Full haircut=2.15 | Top-cluster share=69.7% | LOO minimum haircut=0.67 | Retention=31.3% | Assessment=Moderately concentrated
+Both ATR expansion flags | Extra=2.0% | Failures=4->2 | Full haircut=2.27 | Top-cluster share=65.9% | LOO minimum haircut=0.80 | Retention=35.1% | Assessment=Moderately concentrated
+Both ATR expansion flags | Extra=3.0% | Failures=4->2 | Full haircut=2.52 | Top-cluster share=59.6% | LOO minimum haircut=1.05 | Retention=41.7% | Assessment=Moderately concentrated
+Full score, at least 2 of 3 flags | Extra=1.5% | Failures=5->3 | Full haircut=1.56 | Top-cluster share=69.7% | LOO minimum haircut=0.49 | Retention=31.7% | Assessment=Moderately concentrated
+Full score, at least 2 of 3 flags | Extra=2.0% | Failures=5->3 | Full haircut=1.66 | Top-cluster share=65.6% | LOO minimum haircut=0.60 | Retention=36.0% | Assessment=Moderately concentrated
+Full score, at least 2 of 3 flags | Extra=3.0% | Failures=5->3 | Full haircut=2.91 | Top-cluster share=37.4% | LOO minimum haircut=1.91 | Retention=65.5% | Assessment=Broadly distributed

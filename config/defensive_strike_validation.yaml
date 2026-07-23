@@ -1,0 +1,18 @@
+spread_width_points: 150.0
+
+# Used only to translate the tolerable haircut into a matching defensive credit.
+anchor_standard_credit_points: 8.25
+
+focus_model_ids:
+  - both_atr_expansions
+  - full_three_factor_score
+
+focus_sample_ids:
+  - full_history
+  - forward_test
+
+# Focused follow-up from the prior defensive-strike analysis.
+focus_additional_distance_fractions:
+  - 0.015
+  - 0.020
+  - 0.030
