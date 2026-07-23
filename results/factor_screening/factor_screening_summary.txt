@@ -1,0 +1,21 @@
+MNQ PCS REGIME RESEARCH — INDIVIDUAL FACTOR SCREENING
+==========================================================
+
+Observations: 1,100
+Baseline failures: 20 (1.82%)
+Baseline touches: 64 (5.82%)
+Candidate risk flags: 3
+Watchlist factors: 8
+
+Top-ranked factors
+----------------------------------------------------------
+ 1. Rolling four-week range at least 120% of prior ATR | Candidate risk flag | N=279 | Failures=10 (3.58%) | Lift=1.97x | Captured=50.0%
+ 2. NDX below 40-week SMA | Candidate risk flag | N=225 | Failures=7 (3.11%) | Lift=1.71x | Captured=35.0%
+ 3. Weekly range at least 120% of prior ATR | Candidate risk flag | N=303 | Failures=9 (2.97%) | Lift=1.63x | Captured=45.0%
+ 4. NDX below a falling 40-week SMA | Watchlist | N=145 | Failures=5 (3.45%) | Lift=1.90x | Captured=25.0%
+ 5. NDX at least 15% below prior 52-week high | Watchlist | N=145 | Failures=5 (3.45%) | Lift=1.90x | Captured=25.0%
+ 6. VIX in top 20% of prior-year readings | Watchlist | N=224 | Failures=6 (2.68%) | Lift=1.47x | Captured=30.0%
+ 7. NDX at least 10% below prior 52-week high | Watchlist | N=234 | Failures=6 (2.56%) | Lift=1.41x | Captured=30.0%
+ 8. VIX increased at least 20% in twenty days | Watchlist | N=195 | Failures=5 (2.56%) | Lift=1.41x | Captured=25.0%
+ 9. NDX below a falling 20-week SMA | Watchlist | N=162 | Failures=4 (2.47%) | Lift=1.36x | Captured=20.0%
+10. Negative four- and twelve-week momentum | Watchlist | N=204 | Failures=5 (2.45%) | Lift=1.35x | Captured=25.0%

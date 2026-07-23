@@ -1,0 +1,176 @@
+factors:
+
+  # Trend
+  - id: below_20_week_sma
+    label: NDX below 20-week SMA
+    category: Trend
+    all:
+      - column: below_sma20
+        operator: eq
+        value: true
+
+  - id: below_40_week_sma
+    label: NDX below 40-week SMA
+    category: Trend
+    all:
+      - column: below_sma40
+        operator: eq
+        value: true
+
+  - id: below_falling_20_week_sma
+    label: NDX below a falling 20-week SMA
+    category: Trend
+    all:
+      - column: below_sma20
+        operator: eq
+        value: true
+      - column: sma20_falling
+        operator: eq
+        value: true
+
+  - id: below_falling_40_week_sma
+    label: NDX below a falling 40-week SMA
+    category: Trend
+    all:
+      - column: below_sma40
+        operator: eq
+        value: true
+      - column: sma40_falling
+        operator: eq
+        value: true
+
+  # Drawdown
+  - id: drawdown_5_percent
+    label: NDX at least 5% below prior 52-week high
+    category: Drawdown
+    all:
+      - column: drawdown_from_52w_high
+        operator: le
+        value: -0.05
+
+  - id: drawdown_10_percent
+    label: NDX at least 10% below prior 52-week high
+    category: Drawdown
+    all:
+      - column: drawdown_from_52w_high
+        operator: le
+        value: -0.10
+
+  - id: drawdown_15_percent
+    label: NDX at least 15% below prior 52-week high
+    category: Drawdown
+    all:
+      - column: drawdown_from_52w_high
+        operator: le
+        value: -0.15
+
+  # Momentum
+  - id: negative_4_week_momentum
+    label: Negative NDX four-week momentum
+    category: Momentum
+    all:
+      - column: ndx_momentum_4w
+        operator: lt
+        value: 0
+
+  - id: negative_12_week_momentum
+    label: Negative NDX twelve-week momentum
+    category: Momentum
+    all:
+      - column: ndx_momentum_12w
+        operator: lt
+        value: 0
+
+  - id: negative_4_and_12_week_momentum
+    label: Negative four- and twelve-week momentum
+    category: Momentum
+    all:
+      - column: ndx_momentum_4w
+        operator: lt
+        value: 0
+      - column: ndx_momentum_12w
+        operator: lt
+        value: 0
+
+  # Volatility behavior beyond absolute VIX
+  - id: vix_up_10_percent_5_days
+    label: VIX increased at least 10% in five days
+    category: Volatility
+    all:
+      - column: vix_change_5d
+        operator: ge
+        value: 0.10
+
+  - id: vix_up_20_percent_20_days
+    label: VIX increased at least 20% in twenty days
+    category: Volatility
+    all:
+      - column: vix_change_20d
+        operator: ge
+        value: 0.20
+
+  - id: vix_above_20_day_average
+    label: VIX above its 20-day average
+    category: Volatility
+    all:
+      - column: vix_above_sma20
+        operator: eq
+        value: true
+
+  - id: vix_top_20_percentile
+    label: VIX in top 20% of prior-year readings
+    category: Volatility
+    all:
+      - column: vix_percentile_252d
+        operator: ge
+        value: 0.80
+
+  # Price structure
+  - id: expanded_week
+    label: Weekly range at least 120% of prior ATR
+    category: Structure
+    all:
+      - column: weekly_range_atr14_ratio
+        operator: ge
+        value: 1.20
+
+  - id: expanded_rolling_four_week
+    label: Rolling four-week range at least 120% of prior ATR
+    category: Structure
+    all:
+      - column: rolling4w_range_atr14_ratio
+        operator: ge
+        value: 1.20
+
+  - id: rolling_four_week_bottom_close
+    label: Rolling four-week close in bottom 30% of range
+    category: Structure
+    all:
+      - column: rolling4w_close_location
+        operator: le
+        value: 0.30
+
+  - id: rolling_four_week_top_close
+    label: Rolling four-week close in top 30% of range
+    category: Structure
+    all:
+      - column: rolling4w_close_location
+        operator: ge
+        value: 0.70
+
+  # Relative strength
+  - id: ndx_underperforming_spy_4_weeks
+    label: NDX underperforming SPY over four weeks
+    category: Relative strength
+    all:
+      - column: ndx_vs_spy_4w
+        operator: lt
+        value: 0
+
+  - id: ndx_underperforming_spy_12_weeks
+    label: NDX underperforming SPY over twelve weeks
+    category: Relative strength
+    all:
+      - column: ndx_vs_spy_12w
+        operator: lt
+        value: 0
