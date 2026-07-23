@@ -1,0 +1,43 @@
+MNQ PCS REGIME RESEARCH — FORWARD-CHAINING VALIDATION
+==============================================================
+
+Methodological status
+--------------------------------------------------------------
+This is a chronological stability and pseudo-out-of-sample diagnostic.
+The score was discovered using the full history, so the historical test folds are not a pristine untouched holdout.
+Within each fold, failure probabilities are estimated only from earlier observations.
+
+Fixed definition
+--------------------------------------------------------------
+Factors: 3
+Elevated cutoff: score >= 2
+Test folds: 5
+
+Pooled non-overlapping test observations
+--------------------------------------------------------------
+Observations: 805
+Failures: 12 (1.49%)
+Normal: N=667, failures=7 (1.05%)
+Elevated: N=138, failures=5 (3.62%)
+Elevated lift versus normal: 3.45x
+Elevated failure capture: 41.7%
+Fisher p-value: 0.0394
+
+Forward probability scoring
+--------------------------------------------------------------
+Regime Brier score: 0.014758
+Baseline Brier score: 0.014800
+Brier skill versus baseline: 0.28%
+Regime log loss: 0.077945
+Baseline log loss: 0.080285
+Log-loss improvement: 0.002339
+
+Fold consistency
+--------------------------------------------------------------
+Training folds with elevated risk above normal: 5/5
+Test folds with elevated risk above normal: 4/5
+Informative test folds: 4/5
+Supportive informative test folds: 4/4
+Test folds with positive Brier skill: 4/5
+
+Assessment: Strong chronological support
